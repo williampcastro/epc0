@@ -13,12 +13,12 @@ def FuzzySet(vmax,vrange,size,x):
         return 0
     if x > a and x <= vmax :    
         return (x-a)/(vmax-a)
-    if x > vmax and x <= vmax:    
+    if x > vmax and x <= b:    
         return (b-x)/(b-vmax)
-    if x > b and x < size:    
+    if x > b and x <= size:    
         return 0 
 
-vmax = int(input("vmax: "))
+vmax = int(input("Max: "))
 vrange = int(input("Range: "))
 size = int(input("Size: "))
 
@@ -27,7 +27,5 @@ y=[]
 
 for num in x :
     y.append(FuzzySet(vmax,vrange,size,num))
-    
-print(x)
-print(y)
+
 plt.show(plt.plot(x,y))
