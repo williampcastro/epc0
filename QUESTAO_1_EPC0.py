@@ -4,6 +4,7 @@ import numpy as np
 
 x = np.array([-1.3, np.sqrt(3), (1+2+3)*4/5])
 
+print("=================================QUESTÃO 1=================================\n")
 print("\nLETRA A")
 print("x = ", x)
 

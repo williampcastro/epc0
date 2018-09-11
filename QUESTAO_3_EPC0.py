@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math as m
 
+print("=================================QUESTÃO 3=================================\n")
 v3 = np.random.rand(1000)
 print("\nLETRA A")
 print("v3 = ", v3)

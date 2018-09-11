@@ -18,6 +18,7 @@ def FuzzySet(vmax,vrange,size,x):
     if x > b and x <= size:    
         return 0 
 
+print("=================================QUESTÃO 6=================================\n")
 vmax = int(input("Max: "))
 vrange = int(input("Range: "))
 size = int(input("Size: "))

@@ -4,6 +4,7 @@ import numpy as np
 
 x = np.arange(0, 10, 2)
 
+print("=================================QUESTÃO 2===============================\n")
 print("\nLETRA A")
 print("x = ", x)
 
