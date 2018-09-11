@@ -21,5 +21,14 @@ print("x = ", x)
 y = np.sin(x)
 print("y = ", y)
 
+print("\nLETRA D")
 plt.show(plt.plot(x, y))
+
+z = np.ones(1000)
+print("\nLETRA E")
+print("\nz = ", z)
+
+print("\nLETRA F")
+print("dimensions of v = ", z.shape)
+
 
