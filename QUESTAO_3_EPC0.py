@@ -1,22 +1,25 @@
-# # QUESTÃO 3
+#  QUESTÃO 3
 
 import numpy as np
+import matplotlib.pyplot as plt
+import math as m
 
-x = np.arange(0, 10, 2)
-print("\nA")
+v3 = np.random.rand(1000)
+print("\nLETRA A")
+print("v3 = ", v3)
+
+md = np.average(v3)
+dv = np.std(v3)
+print("\nLETRA B")
+print("Média de V3 = ", md)
+print("Desvio Padrão de V3 = ", dv)
+
+pi = m.pi
+x = np.linspace(0.0, 2*pi)
+print("\nLETRA C")
 print("x = ", x)
-
-y = np.arange(0, 5, 1)
-print("\nB")
+y = np.sin(x)
 print("y = ", y)
 
-v = np.concatenate((x,y), axis=0)
-print("\nC")
-print("v = ", v)
-print("dimensions of v = ", v.shape)
-
-v2 = np.linspace(0.,10.,6)
-print("\nD")
-print("v2 = ", v2)
-
+plt.show(plt.plot(x, y))
 

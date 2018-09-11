@@ -4,19 +4,19 @@ import numpy as np
 
 x = np.array([-1.3, np.sqrt(3), (1+2+3)*4/5])
 
-print("\nA")
+print("\nLETRA A")
 print("x = ", x)
 
-print("\nB")
+print("\nLETRA B")
 x = np.insert(x,3,abs(x[1]))
 print("x = ", x)
 
 y = np.array([1,2,3,4])
 
-print("\nC")
+print("\nLETRA C")
 print("y = ",y)
 
-print("\nD")
+print("\nLETRA D")
 print("\ni")
 print("x+y = ",x+y)
 
